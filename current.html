@@ -1,0 +1,656 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>WREN | Current Project</title>
+
+    <link rel="shortcut icon" href="assets/images/favicon.png" type="image/png">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/magnific-popup.css">
+    <link rel="stylesheet" href="assets/css/animate.min.css">
+    <link rel="stylesheet" href="assets/css/slick.css">
+    <link rel="stylesheet" href="assets/css/default.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <style>
+        @font-face {
+            font-family: "Lato";
+            src: url('Lato-Regular.ttf');
+        }
+
+        .m-btm {
+            font-size: 16px;
+            margin-bottom: 10px;
+        }
+
+        .c-colr {
+            color: #000;
+        }
+
+        .c-colr:hover {
+            color: #000;
+        }
+
+        .c-bt {
+            margin-bottom: 70px;
+        }
+
+        .single-img {
+            position: relative;
+            /*width: 30%;*/
+            /*float: left;*/
+            margin: 0 1%;
+        }
+
+        .image {
+            display: block;
+            width: 100%;
+            height: auto;
+        }
+
+        .img-overlay {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background-color: #926224;
+            overflow: hidden;
+            width: 100%;
+            height: 0;
+            transition: .5s ease;
+        }
+
+        .single-img:hover .img-overlay {
+            height: 100%;
+        }
+
+        .text {
+            position: absolute;
+            top: 20%;
+            left: 43%;
+            -webkit-transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+            color: #fff;
+            /*text-align: center;*/
+            font-size: 18px;
+            /*text-transform: uppercase;*/
+            letter-spacing: 2px;
+            font-weight: bold;
+        }
+
+        .texting {
+            position: absolute;
+            top: 45%;
+            left: 43%;
+            -webkit-transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+            color: #fff;
+            font-size: 18px;
+
+        }
+    </style>
+
+</head>
+
+<body class="home-2-bg">
+
+    <header class="header-area header-2-area">
+        <!--  <div class="header-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="header-top-item">
+                            <div class="info">
+                                <ul>
+                                    <li><img src="assets/images/phone.svg" alt=""> 123456789</li>
+                                    <li><img src="assets/images/email.svg" alt=""> info@wren.com</li>
+                                </ul>
+                            </div>
+                            <div class="sicial">
+                                <ul>
+                                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+        <div class="header-nav">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="navigation">
+                            <nav class="navbar navbar-expand-lg navbar-light ">
+
+                                <a class="navbar-brand" href="index.html">
+                                    <img src="assets/images/logo.png" alt="">
+                                </a>
+
+                                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                    aria-expanded="false" aria-label="Toggle navigation">
+                                    <span class="toggler-icon"></span>
+                                    <span class="toggler-icon"></span>
+                                    <span class="toggler-icon"></span>
+                                </button>
+
+                                <div class="collapse navbar-collapse sub-menu-bar" id="navbarSupportedContent">
+                                    <ul class="navbar-nav ml-auto">
+                                        <li class="nav-item active">
+                                            <a class="nav-link" href="index.html">Home</a>
+
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="about.html">About </a>
+                                        </li>
+
+
+
+                                        <li class="nav-item d-lg-none">
+                                            <a class="nav-link" href="javascript:;">Services</a>
+                                            <ul class="sub-menu">
+                                                <li><a href="waste-management.html" class="a-herf">Waste Management
+                                                        Consulting and Advisory
+                                                    </a></li>
+
+                                                <li><a href="education-training.html" class="a-herf">Education,
+                                                        Training, and Outreach</a></li>
+
+                                                <li><a href="circular-economy.html" class="a-herf">Circular Economy and
+                                                        Resource Recovery Consulting</a></li>
+
+                                                <li><a href="policy-and-advocacy.html" class="a-herf">Policy and
+                                                        Advocacy</a></li>
+                                            </ul>
+                                        </li>
+
+
+                                        <li class="d-none d-lg-block">
+
+                                            <div class="menu-container">
+                                                <ul class="menu-icon">
+                                                    <div class="menu-list">
+                                                        <span class="nav-item nav-link"
+                                                            style="color: #fff; font-size: 18px;">Services</span>
+                                                        <nav id="menu-nav">
+                                                            <a href="waste-management.html" class="a-herf">Waste
+                                                                Management Consulting and Advisory
+                                                            </a>
+                                                            <a href="education-training.html" class="a-herf">Education,
+                                                                Training, and Outreach</a>
+                                                            <a href="circular-economy.html" class="a-herf">Circular
+                                                                Economy and Resource Recovery Consulting</a>
+                                                            <a href="policy-and-advocacy.html" class="a-herf">Policy and
+                                                                Advocacy</a>
+                                                        </nav>
+                                                    </div>
+                                                </ul>
+                                            </div>
+                                        </li>
+
+
+                                        <li class="nav-item d-lg-none">
+                                            <a class="nav-link" href="javascript:;">Projects</a>
+                                            <ul class="sub-menu">
+                                                <li><a href="current.html" class="a-herf">Current Projects</a></li>
+                                                <li><a href="previous.html" class="a-herf">Previous Projects</a></li>
+                                            </ul>
+                                        </li>
+
+                                        <li class="d-none d-lg-block">
+
+                                            <div class="menu-container">
+                                                <ul class="menu-icon">
+                                                    <div class="menu-list">
+                                                        <span class="nav-item nav-link"
+                                                            style="color: #fff; font-size: 18px;">Projects</span>
+                                                        <nav id="menu-nav">
+                                                            <a href="current.html" class="a-herf">Current Projects</a>
+                                                            <a href="previous.html" class="a-herf">Previous Projects</a>
+                                                        </nav>
+                                                    </div>
+                                                </ul>
+                                            </div>
+                                        </li>
+
+
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="blog.html">Our Team</a>
+                                        </li>
+
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="contact.html">Contact Us</a>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <div class="page-title-area">
+        <div class="section__bg" style="background-image: url('assets/images/pro-banner.jpg');"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="page-title-content text-center">
+                        <h3 class="title"> Current Projects </h3>
+                        <!--<hr class="b-line">-->
+                        <nav aria-label="breadcrumb">
+                            <ol class="breadcrumb">
+                                <!--<li class="breadcrumb-item"><a href="index.html">Home</a></li>-->
+                                <!--<li class="breadcrumb-item active" aria-current="page">Project</li>-->
+                            </ol>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <section class="portfolio-style-4-area">
+        <div class="container">
+            <div class="row gap-3" style='row-gap:30px'>
+                <div class="col-lg-4 col-md-6 cat-4 cat-2">
+                    <div class="portfolio-style-4-item mt-30 h-100">
+                        <div class="portfolio-thumb">
+                            <img src="assets/images/project/Supporting the establishment.jpeg" alt=""
+                                style="height:200px;">
+                        </div>
+                        <div class="portfolio-content">
+                            <h5 class="title tit">Supporting the Establishment of the Belize Recycling and Waste
+                                Management Association</h5>
+                            <a href="#!" onclick="toggleText('belize1')" id="readMore-belize1">Read More</a>
+                            <span id="moreText-belize1" style="display:none;">WREN takes pride in leading the
+                                establishment of the "Belize
+                                Recycling and Waste Management Association," a groundbreaking initiative as the first of
+                                its kind in the Caribbean
+                                Through a consultative and participatory process, including targeted consultations and
+                                workshops, our dedicated team aims to address the lack of a unified platform for
+                                informal recyclers and private sector waste managers. The ultimate goal is to strengthen
+                                collaboration between the private sector and the Belizean government in enhancing
+                                resource recovery. Once formed, the association will continue to receive support through
+                                engagement with national and regional counterparts and hosting a donor round table.
+                                <a href="#!" onclick="toggleText('belize1')" id="readLess-belize1"
+                                    style="display:none;">Read Less</a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 cat-4 cat-2">
+                    <div class="portfolio-style-4-item h-100 mt-30">
+                        <div class="portfolio-thumb">
+                            <img src="assets/images/project/National Maritime Transport Policy_page-0001.jpg" alt=""
+                                style="height:200px;">
+                        </div>
+                        <div class="portfolio-content">
+                            <h5 class="title tit">Developing a National Maritime Transport Policy for Belize</h5>
+                            <a href="#!" onclick="toggleText('belize2')" id="readMore-belize2">Read More</a>
+                            <span id="moreText-belize2" style="display:none;">Supported by the Centre for Environment
+                                Fisheries and Aquaculture Science (Cefas, UK) and funded through the UK Government’s
+                                Ocean Country Partnership Program (OCPP), WREN is actively leading the development of a
+                                comprehensive Maritime Transport Policy for Belize. This initiative recognizes the
+                                significant contributions of various maritime sectors to Belize's development, including
+                                tourism, passenger transport, shipping, and emerging industries. Emphasizing
+                                sustainability, connectivity, and resilience, our team is working towards producing a
+                                National Maritime Transport Policy that provides strategic direction.
+                                <a href="#!" onclick="toggleText('belize2')" id="readLess-belize2"
+                                    style="display:none;">Read Less</a>
+                            </span>
+                        </div>
+
+
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 cat-4 cat-2">
+                    <div class="portfolio-style-4-item mt-30 h-100">
+                        <div class="portfolio-thumb">
+                            <img src="assets/images/project/Port Upgrade Feasibility Study_page-0001.jpg" alt=""
+                                style="height:200px;">
+                        </div>
+                        <div class="portfolio-content">
+                            <h5 class="title tit">Conducting a Pilot Ports Upgrade Feasibility Study on Port Waste
+                                Management Infrastructure in Belize</h5>
+                            <a href="#!" onclick="toggleText('belize3')" id="readMore-belize3">Read More</a>
+                            <span id="moreText-belize3" style="display:none;">WREN is delivering a focused feasibility
+                                study on upgrading port waste management infrastructure in Belize. Centered around the
+                                maritime sector, this study assesses the feasibility of port facility and system
+                                upgrades to align with the International Convention for the Prevention of Pollution from
+                                Ships (MARPOL). Our project involves a comprehensive analysis of existing maritime
+                                sector activities and port facility operations, evaluating infrastructure requirements
+                                for MARPOL compliance.
+                                <a href="#!" onclick="toggleText('belize3')" id="readLess-belize3"
+                                    style="display:none;">Read Less</a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 cat-4 cat-2">
+                    <div class="portfolio-style-4-item mt-30 h-100">
+                        <div class="portfolio-thumb">
+                            <img src="assets/images/project/Project Fresh Start.jpg" alt="" style="height:200px;">
+                        </div>
+                        <div class="portfolio-content">
+                            <h5 class="title tit">Project Fresh Start – Introducing collection services in remote
+                                communities in Belize</h5>
+                            <a href="#!" onclick="toggleText('belize4')" id="readMore-belize4">Read More</a>
+                            <span id="moreText-belize4" style="display:none;">Addressing the issue of illegal garbage
+                                dumping, Project Fresh Start aims to establish waste collection and disposal systems in
+                                small and remote communities in Belize that did not previously have existing waste
+                                management infrastructure. WREN collaborates with the Department of Environment (DOE)
+                                and village councils to create effective waste management systems, mitigating
+                                environmental and health issues associated with illegal dumping.
+                                <a href="#!" onclick="toggleText('belize4')" id="readLess-belize4"
+                                    style="display:none;">Read Less</a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 cat-4 cat-2">
+                    <div class="portfolio-style-4-item mt-30 h-100">
+                        <div class="portfolio-thumb">
+                            <img src="assets/images/project/white paper project.jpeg" alt="" style="height:200px;">
+                        </div>
+                        <div class="portfolio-content">
+                            <h5 class="title tit">White Paper - Compendium of Successful Case Studies on Effective
+                                Solutions to Plastic Pollution in Islands</h5>
+                            <a href="#!" onclick="toggleText('belize5')" id="readMore-belize5">Read More</a>
+                            <span id="moreText-belize5" style="display:none;">WREN addresses plastic pollution in Small
+                                Island Developing States (SIDs) through a white paper consolidating successful case
+                                studies. The initiative aims to create a collaborative framework to tackle the complex
+                                problem of plastic waste, fostering sustainable resource-recovery mechanisms, job
+                                creation, and strengthening trade agreements for international commodity markets.
+                                Supported by the Alliance to End Plastic Waste and the PREVENT Waste Alliance, this
+                                effort focuses on consolidating knowledge on managing and preventing plastic waste in
+                                small islands and remote coastal areas worldwide.
+                                <a href="#!" onclick="toggleText('belize5')" id="readLess-belize5"
+                                    style="display:none;">Read Less</a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 cat-4 cat-2">
+                    <div class="portfolio-style-4-item mt-30 h-100">
+                        <div class="portfolio-thumb">
+                            <img src="assets/images/project/Samoa Single use plastics project.jpeg" alt=""
+                                style="height:200px;">
+                        </div>
+                        <div class="portfolio-content">
+                            <h5 class="title tit">Assessment on Preventing Leakage of Single-Use Plastics in Pacific
+                                Island Countries</h5>
+                            <a href="#!" onclick="toggleText('belize6')" id="readMore-belize6">Read More</a>
+                            <span id="moreText-belize6" style="display:none;">In collaboration with an international
+                                team of experts, WREN’s director is contributing to an assessment to prevent the leakage
+                                of single-use plastics into the marine environment in Pacific Island Countries (PICs).
+                                Targeting Fiji, Kiribati, Samoa, and Vanuatu, the project aims to provide these
+                                governments with a framework to reduce single-use plastic leakage. Through a
+                                comprehensive cost-benefit analysis, considering economic, social, and environmental
+                                factors, the study will inform decision-making, policies, and investment planning for
+                                sustainable production and consumption of plastics.
+                                <a href="#!" onclick="toggleText('belize6')" id="readLess-belize6"
+                                    style="display:none;">Read Less</a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 cat-4 cat-2">
+                    <div class="portfolio-style-4-item mt-30 h-100">
+                        <div class="portfolio-thumb">
+                            <img src="assets/images/project/World bank blue economy project.jpeg" alt=""
+                                style="height:200px;">
+                        </div>
+                        <div class="portfolio-content">
+                            <h5 class="title tit">Assessment of the Scope, Scale, and Impacts of Marine Pollution on Key
+                                Blue Economy Sectors in Pacific Island Countries</h5>
+                            <a href="#!" onclick="toggleText('belize7')" id="readMore-belize7">Read More</a>
+                            <span id="moreText-belize7" style="display:none;">Working as part of an international
+                                collaborative team, WREN’s director is contributing as the solid waste management expert
+                                for the "Assessment of the Scope, Scale, and Impacts of Marine Pollution from Key Blue
+                                Economy Sectors in 12 PICs." Focused on tourism, fisheries, and maritime transport, this
+                                project provides sector reports and country case studies, offering recommendations for
+                                future actions and ways forward in reducing the impact of marine pollution in the
+                                Pacific. Outputs will support policy dialogue and investment planning with PIC
+                                governments and stakeholders, with detailed expertise on waste management data and
+                                operational issues.
+                                <a href="#!" onclick="toggleText('belize7')" id="readLess-belize7"
+                                    style="display:none;">Read Less</a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 cat-4 cat-2">
+                    <div class="portfolio-style-4-item mt-30 h-100">
+                        <div class="portfolio-thumb">
+                            <img src="assets/images/pic.png" alt="" style="height:200px;">
+                        </div>
+                        <div class="portfolio-content">
+                            <h5 class="title tit">The Pacific Ocean Litter Project (POLP)</h5>
+                            <a href="#!" onclick="toggleText('belize8')" id="readMore-belize8">Read More</a>
+                            <span id="moreText-belize8" style="display:none;">Working as part of an international
+                                collaborative The Pacific Ocean Litter Project (POLP) (2019-2027) is funded by the
+                                Australian Government and implemented by the Secretariat of the Pacific Regional
+                                Environment Programme (SPREP) in collaboration with Pacific Island Countries (PICs). The
+                                POLP is working to reduce single-use plastic marine litter in the coastal environments
+                                of PICs. It has been developed in recognition of the threat marine litter poses to the
+                                environment, public health, and economic development of the Pacific region.
+                                There is a pressing need to consider alternative solutions to single-use plastic
+                                products.
+                                Under this preoject, WREN will produce a region-wide compendium of alternative products
+                                that are being used in the region and globally to replace single-use plastics that are
+                                targeted by the POLP.
+                                <p>The Activity will provide the foundation to progress towards the following
+                                    intermediate outcomes:</p>
+                                <li>Pacific Islander owned businesses and community-based enterprises are making
+                                    alternative sustainable products locally</li>
+                                <li>SPREP is sharing information and tools that enable governments, industry, and
+                                    business to choose viable alternative sustainable products – imported or produced
+                                    locally.</li>
+                                Alternative products identified in the compendium will be considered for adoption
+                                through pilot activities in one or more Pacific Island countries. To support POLP
+                                outcomes, the compendium and assessment will identify recommended suppliers of
+                                alternative products and potential opportunities to produce alternative products in
+                                PICs.
+                                <p>Countries: All PICs</p>
+                                <p>Client: SPREP </p>
+
+                                <a href="#!" onclick="toggleText('belize8')" id="readLess-belize8"
+                                    style="display:none;">Read Less</a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    <footer class="footer-area footer-2-area">
+
+        <!--<div class="container">-->
+        <!--    <div class="footer-item">-->
+
+        <!--        <div class="row">-->
+
+        <!--        <div class="c">-->
+        <!--                <div class="footer-newsletter-item mt-30">-->
+        <!--                    <p class="sub-cat">Work with us to address your waste management challenges, connect with like minded individuals and be empowered to innovate. Connect with our team to find the right solutions for you.</p>-->
+        <!--                </div>-->
+        <!--            </div>-->
+
+        <!--              <div class="col-lg-4 col-md-6 col-sm-5">-->
+        <!--                <div class="footer-list mt-30">-->
+        <!--                    <h4 class="title">SERVICES</h4>-->
+        <!--                    <ul>-->
+        <!--                        <li><a href="waste-management.html">Waste Management Consulting and Advisory</a></li>-->
+        <!--                        <li><a href="education-training.html">Education, Training, and Outreach</a></li>-->
+        <!--                        <li><a href="circular-economy.html">Circular Economy and Resource Recovery Consulting</a></li>-->
+        <!--                        <li><a href="policy-and-advocacy.html">Policy and Advocacy</a></li>-->
+        <!--                    </ul>-->
+        <!--                </div>-->
+        <!--            </div>-->
+
+
+        <!--            <div class="col-lg-2 col-md-6 col-sm-6">-->
+        <!--                <div class="footer-list mt-30">-->
+        <!--                    <h4 class="title">EXPLORE</h4>-->
+        <!--                    <ul>-->
+        <!--                        <li><a href="about.html">About Us</a></li>-->
+        <!--                        <li><a href="project.html">Project</a></li>-->
+        <!--                        <li><a href="blog.html">Blog</a></li>-->
+        <!--                        <li><a href="contact.html">Contact Us</a></li>-->
+        <!--                    </ul>-->
+        <!--                </div>-->
+        <!--            </div>-->
+        <!--            <div class="col-lg-2 col-md-6 col-sm-6">-->
+        <!--                <div class="footer-list mt-30">-->
+        <!--                    <h4 class="title">CONTACT</h4>-->
+        <!--                    <ul>-->
+        <!--                        <li><a href="#">+61 433 511 670</a></li>-->
+        <!--                        <li><a href="#">www.wrenconsult.com.au</a></li>-->
+        <!--                        <li><a href="#">admin@wrenconsult.com.au</a></li>-->
+        <!--                    </ul>-->
+
+        <!--                    <div class="footer-copyright">-->
+        <!--                <ul>-->
+        <!--                    <li><a href="https://www.facebook.com/profile.php?id=100092623182389" target="_blank"><i class="fab fa-facebook-f"></i></a></li>-->
+        <!--                    <li><a href="http://www.linkedin.com/in/wren-consulting-046993276" target="_blank"><i class="fab fa-linkedin"></i></a></li>-->
+        <!--                    <li><a href="https://www.instagram.com/wren_network/" target="_blank"><i class="fab fa-instagram"></i></a></li>-->
+        <!--                </ul>-->
+        <!--            </div>-->
+
+        <!--                </div>-->
+        <!--            </div>-->
+
+        <!--        </div>-->
+        <!--    </div>-->
+        <!--    <div class="row">-->
+        <!--        <div class="col-lg-12">-->
+        <!--            <div class="footer-copyright"  style="text-align: center;border-top: 1px solid #fff;">-->
+        <!--                <p>© 2023 WREN Developed. By <a href="https://mararmedia.com" target="_blank" style="color: #fff;">Marar Media</a>.All rights reserved </p>-->
+        <!--            </div>-->
+        <!--        </div>-->
+        <!--    </div>-->
+        <!--</div>-->
+        <div class='container  pb-20'>
+            <div class='row pt-20 align-items-center footer-design'>
+                <center class='col-lg-2 align-items-center'>
+                    <img src='https://mararmedia.agency/wren/assets/images/logo.png' />
+                </center>
+                <div class='col-lg-9 text-white text-center'>
+                    Work with us to address your waste management challenges, connect with like minded individuals and
+                    be empowered to innovate. Connect with our team to find the right solutions for you.
+                </div>
+            </div>
+            <br />
+            <div class='text-white justify-content-center d-flex footer-items' style='column-gap: 10px'>
+                <div><b>EXPLORE :</b></div>
+                <div style='display: flex; column-gap: 10px'>
+                    <div><a href="about.html" class="text-white" style="text-decoration: none;">About Us</a></div>
+                    <div>|</div>
+                    <div><a href="current.html" class="text-white" style="text-decoration: none;">Projects</a></div>
+                    <div>|</div>
+                    <div><a href="blog.html" class="text-white" style="text-decoration: none;">Our Team</a></div>
+                    <div>|</div>
+                    <div><a href="contact.html" class="text-white" style="text-decoration: none;">Contact Us</a></div>
+                </div>
+            </div>
+            <div class='text-white justify-content-center d-flex mt-10 footer-items' style='column-gap: 10px'>
+                <div><b>CONTACT :</b></div>
+                <div style='display: flex; column-gap: 10px'>
+                    <div><a href="tel:+61433511670" class="text-white" style="text-decoration: none;">+61 433 511
+                            670</a></div>
+                    <div>|</div>
+                    <div><a href="https://www.wrenconsult.com.au" target="_blank" class="text-white"
+                            style="text-decoration: none;">www.wrenconsult.com.au</a></div>
+                    <div>|</div>
+                    <div><a href="mailto:admin@wrenconsult.com.au" class="text-white"
+                            style="text-decoration: none;">admin@wrenconsult.com.au</a></div>
+                </div>
+            </div>
+
+
+            <div class='row justify-content-center text-white d-flex mt-30' style='column-gap: 40px'>
+                <div>
+                    <a href=' https://www.facebook.com/profile.php?id=61552684562323&sk=about' class='text-white h3'>
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                </div>
+                <div>
+                    <a href='' class='text-white h3'>
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </div>
+                <div>
+                    <a href=' https://www.instagram.com/wren_network/' class='text-white h3'>
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script>
+        function toggleText(itemID) {
+            var moreText = document.getElementById("moreText-" + itemID);
+            var readMoreLink = document.getElementById("readMore-" + itemID);
+            var readLessLink = document.getElementById("readLess-" + itemID);
+            var summary = document.getElementById("summary-" + itemID);
+            if (moreText.style.display === "none") {
+                moreText.style.display = "inline";
+                readMoreLink.style.display = "none";
+                readLessLink.style.display = "inline";
+                summary.style.display = "none";
+            } else {
+                moreText.style.display = "none";
+                readMoreLink.style.display = "inline";
+                readLessLink.style.display = "none";
+                summary.style.display = "inline";
+            }
+        }
+    </script>
+
+    <a class="back-to-top">
+        <i class="fal fa-angle-up"></i>
+    </a>
+
+    <script src="assets/js/vendor/modernizr-3.6.0.min.js"></script>
+    <script src="assets/js/vendor/jquery-1.12.4.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/jquery.appear.min.js"></script>
+    <script src="assets/js/slick.min.js"></script>
+    <script src="assets/js/wow.js"></script>
+    <script src="assets/js/isotope.pkgd.min.js"></script>
+    <script src="assets/js/imagesloaded.pkgd.min.js"></script>
+    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+    <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>

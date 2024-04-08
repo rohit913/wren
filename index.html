@@ -1,0 +1,1170 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>WREN | Homepage</title>
+
+    <link rel="shortcut icon" href="assets/images/favicon.png" type="image/png">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/magnific-popup.css">
+    <link rel="stylesheet" href="assets/css/animate.min.css">
+    <link rel="stylesheet" href="assets/css/slick.css">
+    <link rel="stylesheet" href="assets/css/default.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <style>
+        @font-face {
+            font-family: "Lato";
+            src: url('Lato-Regular.ttf');
+        }
+
+        .gallery-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            background-color: #fff;
+            box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.3);
+            /*width: 80%;*/
+            margin: 0 auto;
+            /*padding: 10px;*/
+        }
+
+        .gallery-item {
+            flex-basis: 25%;
+            /*margin-bottom: 6px;*/
+            opacity: .85;
+            cursor: pointer;
+        }
+
+        .gallery-item:hover {
+            opacity: 1;
+        }
+
+        .gallery-item img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .gallery-content {
+            font-size: .8em;
+        }
+
+        .lightbox {
+            position: fixed;
+            display: none;
+            background-color: rgba(0, 0, 0, 0.8);
+            width: 100%;
+            height: 100%;
+            overflow: auto;
+            top: 0;
+            left: 0;
+        }
+
+        .lightbox-content {
+            position: relative;
+            width: 70%;
+            height: 70%;
+            margin: 5% auto;
+        }
+
+        .lightbox-content img {
+            border-radius: 7px;
+            box-shadow: 0 0 3px 0 rgba(225, 225, 225, .25);
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .lightbox-prev,
+        .lightbox-next {
+            position: absolute;
+            background-color: rgba(0, 0, 0, 0.8);
+            color: #fff;
+            padding: 7px;
+            top: 45%;
+            cursor: pointer;
+        }
+
+        .lightbox-prev {
+            left: 0;
+        }
+
+        .lightbox-next {
+            right: 0;
+        }
+
+        .lightbox-prev:hover,
+        .lightbox-next:hover {
+            opacity: .8;
+        }
+
+        @media (max-width: 767px) {
+            .gallery-container {
+                width: 100%;
+            }
+
+            .gallery-item {
+                flex-basis: 49.80%;
+                margin-bottom: 3px;
+            }
+
+            .lightbox-content {
+                width: 80%;
+                height: 60%;
+                margin: 15% auto;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .gallery-item {
+                flex-basis: 100%;
+                margin-bottom: 1px;
+            }
+
+            .lightbox-content {
+                width: 90%;
+                margin: 20% auto;
+            }
+        }
+
+        @media (max-width: 1000px) {
+            .footer-design {
+                flex-direction: column;
+                align-items: center;
+                align-content: center;
+                justify-content: center;
+            }
+
+            .footer-items {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+
+        .footer-items>div {
+            white-space: nowrap;
+        }
+    </style>
+
+</head>
+
+<body class="home-2-bg">
+
+    <header class="header-area header-2-area">
+        <!--  <div class="header-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="header-top-item">
+                            <div class="info">
+                                <ul>
+                                    <li><img src="assets/images/phone.svg" alt=""> 123456789</li>
+                                    <li><img src="assets/images/email.svg" alt=""> info@wren.com</li>
+                                </ul>
+                            </div>
+                            <div class="sicial">
+                                <ul>
+                                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+        <div class="header-nav">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="navigation">
+                            <nav class="navbar navbar-expand-lg navbar-light ">
+
+                                <a class="navbar-brand" href="index.html">
+                                    <img src="assets/images/logo.png" alt="">
+                                </a>
+
+                                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                    aria-expanded="false" aria-label="Toggle navigation">
+                                    <span class="toggler-icon"></span>
+                                    <span class="toggler-icon"></span>
+                                    <span class="toggler-icon"></span>
+                                </button>
+
+                                <div class="collapse navbar-collapse sub-menu-bar" id="navbarSupportedContent">
+                                    <ul class="navbar-nav ml-auto">
+                                        <li class="nav-item active">
+                                            <a class="nav-link" href="index.html">Home</a>
+
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="about.html">About </a>
+                                        </li>
+
+
+
+                                        <li class="nav-item d-lg-none">
+                                            <a class="nav-link" href="javascript:;">Services </a>
+                                            <ul class="sub-menu">
+                                                <li><a href="waste-management.html" class="a-herf">Waste Management
+                                                        Consulting and Advisory
+                                                    </a></li>
+
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="education-training.html">Education,
+                                                        Training, and Outreach</a>
+                                                </li>
+
+                                                <li><a href="circular-economy.html" class="a-herf">Circular Economy and
+                                                        Resource Recovery Consulting</a></li>
+
+                                                <li><a href="policy-and-advocacy.html" class="a-herf">Policy and
+                                                        Advocacy</a></li>
+                                            </ul>
+                                        </li>
+
+
+                                        <li class="d-none d-lg-block">
+
+                                            <div class="menu-container">
+                                                <ul class="menu-icon">
+                                                    <div class="menu-list">
+                                                        <span class="nav-item nav-link"
+                                                            style="color: #fff; font-size: 18px;">Services</span>
+                                                        <nav id="menu-nav">
+                                                            <a href="waste-management.html" class="a-herf">Waste
+                                                                Management Consulting and Advisory
+                                                            </a>
+                                                            <a href="education-training.html" class="a-herf">Education,
+                                                                Training, and Outreach</a>
+                                                            <a href="circular-economy.html" class="a-herf">Circular
+                                                                Economy and Resource Recovery Consulting</a>
+                                                            <a href="policy-and-advocacy.html" class="a-herf">Policy and
+                                                                Advocacy</a>
+                                                        </nav>
+                                                    </div>
+                                                </ul>
+                                            </div>
+                                        </li>
+
+
+                                        <li class="nav-item d-lg-none">
+                                            <a class="nav-link" href="javascript:;">Projects</a>
+                                            <ul class="sub-menu">
+                                                <li><a href="current.html" class="a-herf">Current Projects</a></li>
+                                                <li><a href="previous.html" class="a-herf">Previous Projects</a></li>
+                                            </ul>
+                                        </li>
+
+                                        <li class="d-none d-lg-block">
+
+                                            <div class="menu-container">
+                                                <ul class="menu-icon">
+                                                    <div class="menu-list">
+                                                        <span class="nav-item nav-link"
+                                                            style="color: #fff; font-size: 18px;">Projects</span>
+                                                        <nav id="menu-nav">
+                                                            <a href="current.html" class="a-herf">Current Projects</a>
+                                                            <a href="previous.html" class="a-herf">Previous Projects</a>
+                                                        </nav>
+                                                    </div>
+                                                </ul>
+                                            </div>
+                                        </li>
+
+
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="blog.html">Our Team</a>
+                                        </li>
+
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="contact.html">Contact Us</a>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+
+    <section class="hero-slider">
+
+        <div class="hero-area hero-2-area">
+            <div class="section__bg" style="background-image: url('assets/images/ban-3.jpg');"></div>
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-12">
+                        <div class="hero-2-content" style="text-align: center;">
+                            <h1 class="title" data-animation="fadeInLeft" data-delay="0.6s">United by a Common
+                                Dream,<br> Create A Better Tomorrow </h1>
+                            <hr class="h-line">
+                            <div class="play" data-animation="fadeInUp" data-delay="0.7s">
+                                <!--<p>We tackle environmental challenges in various countries and with our work deeply<br> rooted in our commitment to the communities we serve.</p>-->
+                                <p>We bring together a vibrant network of global changemakers, driven by a shared
+                                    passion to create a positive impact. </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="hero-area hero-2-area">
+            <div class="section__bg"></div>
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-12">
+                        <div class="hero-2-content" style="text-align: center;">
+                            <!--<h1 class="title" data-animation="fadeInLeft" data-delay="0.6s">Innovative solutions to achieve<br> a circular economy</h1>-->
+                            <h1 class="title" data-animation="fadeInLeft" data-delay="0.6s">Solving a global problem
+                                <br> with local solutions</h1>
+                            <hr class="h-line">
+                            <div class="play" data-animation="fadeInUp" data-delay="0.7s">
+                                <!--<p>We bring together a vibrant network of global change makers,<br> driven by a shared passion to create a positive impact</p>-->
+                                <p>Our work ensures that we centre the people and their profound living experiences <br>
+                                    to co-create solutions for lasting change</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="hero-area hero-2-area">
+            <div class="section__bg" style="background-image: url('assets/images/ban-2.jpg');"></div>
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-12">
+                        <div class="hero-2-content" style="text-align: center;">
+                            <!--<h1 class="title" data-animation="fadeInLeft" data-delay="0.6s">Transforming Challenges<br> into Opportunities</h1>-->
+                            <h1 class="title" data-animation="fadeInLeft" data-delay="0.6s">Working towards a
+                                sustainable<br> circular economy</h1>
+                            <hr class="h-line">
+                            <div class="play" data-animation="fadeInUp" data-delay="0.7s">
+                                <!--<p>We are dedicated to turning environmental challenges into<br> opportunities for growth innovation and lasting change.</p>-->
+                                <p>Rooted in the principles of the waste hierarchy we pride ourselves in converting
+                                    environmental <br> challenges to opportunities.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+
+
+
+
+    <section class="about-2-area back-rnd" style="padding-bottom: 65px;">
+        <div class="container">
+
+            <div class="row">
+                <div class="col-md-12">
+                    <h3 class="ab-wrn">About WREN</h3>
+                </div>
+            </div>
+            <div class="row align-items-center">
+                <div class="col-lg-6 col-md-9">
+                    <div class="about-2-content mt-30">
+                        <p class="p-cls">Waste Recycling Environment Network is a dynamic startup providing consulting
+                            services in the waste and recycling industry. From land-based waste to maritime sectors -
+                            our mission is to consult, educate and provide solutions to pave the way for a sustainable
+                            tomorrow. Proudly woman-led and embracing diversity, our team is spread across five
+                            countries and we communicate in ten languages. In the rapidly evolving landscape of growing
+                            economies, we confront the critical challenge of unmanaged waste head on and provide
+                            solutions deeply rooted in the realities of the communities we serve.</p>
+
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="about-2-thumb mt-30 animated wow fadeInRight" data-wow-duration="3000ms"
+                        data-wow-delay="0ms">
+                        <div class="thumb text-right">
+                            <img src="assets/images/ab-out.png" alt="">
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-12">
+                    <div style="text-align: center;">
+                        <a class="main-btn main-btn-3 mt-65" href="about.html">KNOW MORE</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <section class="portfolio-2-area back-rnd" style="padding-top: 0px;padding-bottom: 50px;">
+        <div class="container">
+            <div class="row ">
+                <div class="col-lg-12">
+                    <div class="section-title-3 text-center ">
+                        <h3 class="title">Our Work</h3>
+                        <!--<p>We work dedicatedly to enhance the welfare of our planet with a team of experts.</p>-->
+                    </div>
+                </div>
+            </div>
+            <div class="row grid">
+                <div class="col-lg-12 col-md-6 col-sm-12 cat-2 cat-4">
+                    <div class="portfolio-2-item mt-30">
+                        <img src="assets/images/map.png" alt="">
+
+                    </div>
+                </div>
+
+
+            </div>
+
+            <!--<div class="row">-->
+            <!--    <div class="col-lg-12">-->
+            <!--        <div class="portfolio-btn text-center mt-40" style="margin-top: 60px;">-->
+            <!--            <a class="main-btn main-btn-3" href="waste-management.html">KNOW MORE</a>-->
+            <!--        </div>-->
+            <!--    </div>-->
+            <!--</div>-->
+        </div>
+    </section>
+
+
+    <section class="team-area">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-6 col-md-9">
+                    <div class="section-title text-center">
+                        <h3 class="title tit">Our Team</h3>
+                        <p>Meet Our Diverse and Passionate Team</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row team-active">
+                <div class="col-lg-3">
+                    <div class="team-item mt-40 mb-100">
+                        <img src="assets/images/team.png" alt="">
+                        <div class="team-overlay d-flex align-items-end">
+                            <div class="content">
+                                <h4 class="title">Dr Amardeep Wander</h4>
+                                <span>Director</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-lg-3">
+                    <div class="team-item mt-40 mb-100">
+                        <img src="assets/images/team2.png" alt="">
+                        <div class="team-overlay d-flex align-items-end">
+                            <div class="content">
+                                <h4 class="title">Giselle Mahung</h4>
+                                <span>Coordinator (Caribbean)</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="team-item mt-40 mb-100">
+                        <img src="assets/images/team11.png" alt="">
+                        <div class="team-overlay d-flex align-items-end">
+                            <div class="content">
+                                <h4 class="title">Ivory Kelly</h4>
+                                <span>Copyeditor</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="team-item mt-40 mb-100">
+                        <img src="assets/images/team12.png" alt="">
+                        <div class="team-overlay d-flex align-items-end">
+                            <div class="content">
+                                <h4 class="title">Ana Markic  </h4>
+                                <span>Marine Scientist</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="team-item mt-40 mb-100">
+                        <img src="assets/images/team14.png" alt="">
+                        <div class="team-overlay d-flex align-items-end">
+                            <div class="content">
+                                <h4 class="title">Sipaia Daniel Fetu   </h4>
+                                <span> Coordinator – Pacific region</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-lg-3">
+                    <div class="team-item mt-40 mb-100">
+                        <img src="assets/images/team3.png" alt="">
+                        <div class="team-overlay d-flex align-items-end">
+                            <div class="content">
+                                <h4 class="title">Andrew Irvine</h4>
+                                <span>Consultant</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="col-lg-3">
+                    <div class="team-item mt-40 mb-100">
+                        <img src="assets/images/team4.png" alt="">
+                        <div class="team-overlay d-flex align-items-end">
+                            <div class="content">
+                                <h4 class="title">Bella  Guitno</h4>
+                                <span>Senior Consultant</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- <div class="col-lg-3">
+                    <div class="team-item mt-40 mb-100">
+                        <img src="assets/images/team5.png" alt="">
+                        <div class="team-overlay d-flex align-items-end">
+                            <div class="content">
+                                <h4 class="title">Faafatai</h4>
+                                <span>Designation</span>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+
+                <!-- <div class="col-lg-3">
+                    <div class="team-item mt-40 mb-100">
+                        <img src="assets/images/team6.png" alt="">
+                        <div class="team-overlay d-flex align-items-end">
+                            <div class="content">
+                                <h4 class="title">Helen Choco</h4>
+                                <span>Designation</span>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+
+                <div class="col-lg-3">
+                    <div class="team-item mt-40 mb-100">
+                        <img src="assets/images/team7.png" alt="">
+                        <div class="team-overlay d-flex align-items-end">
+                            <div class="content">
+                                <h4 class="title">Jasenka </h4>
+                                <span>Report Writer</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3">
+                    <div class="team-item mt-40 mb-100">
+                        <img src="assets/images/team13.png" alt="">
+                        <div class="team-overlay d-flex align-items-end">
+                            <div class="content">
+                                <h4 class="title">Juvelino</h4>
+                                <span> Infrastructure Engineer</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="team-item mt-40 mb-100">
+                        <img src="assets/images/team10.png" alt="">
+                        <div class="team-overlay d-flex align-items-end">
+                            <div class="content">
+                                <h4 class="title">
+                                    Benjamin Banani</h4>
+                                <span>Statistician</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="team-item mt-40 mb-100">
+                        <img src="assets/images/team9.png" alt="">
+                        <div class="team-overlay d-flex align-items-end">
+                            <div class="content">
+                                <h4 class="title">
+
+                                    Marina Keil</h4>
+                                <span>Consultant</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <section class="testimonial-area back-rnd" style="padding-top: 40px;">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-6 col-md-9">
+                    <div class="section-title section-title-2 text-center">
+                        <h3 class="title" style="margin-bottom: 50px;">Latest Projects</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="row testimonial-active">
+                <div class="col-lg-6">
+                    <div class="row bx-ox">
+
+                        <div class="col-md-4 p-pading">
+                            <img src="assets/images/project/Supporting the establishment.jpeg" style="object-fit: cover;" class="blg-ht d-none d-lg-block">
+                            <img src="assets/images/project/Supporting the establishment.jpeg" style="object-fit: cover;" class="d-lg-none">
+                        </div>
+                        <div class="col-md-8">
+                            <h4 class="c-tps">Supporting the Establishment of the Belize Recycling and Waste Management
+                                Association</h4>
+                            <p>WREN takes pride in leading the establishment of the "Belize Recycling and Waste
+                                Management Association," a groundbreaking initiative as the first of its kind in the
+                                Caribbean.</p>
+                            <a href="current.html" class="main-btn main-btn-3 c-read">Read Now</a>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="col-lg-6">
+                    <div class="row bx-ox">
+
+                        <div class="col-md-4 p-pading">
+                            <img src="assets/images/project/National Maritime Transport Policy_page-0001.jpg" style="object-fit: cover;" class="blg-ht d-none d-lg-block">
+                            <img src="assets/images/project/National Maritime Transport Policy_page-0001.jpg" style="object-fit: cover;" class="d-lg-none">
+                        </div>
+                        <div class="col-md-8">
+                            <h4 class="c-tps">Developing a National Maritime Transport Policy for Belize</h4>
+                            <p>Supported by the Centre for Environment Fisheries and Aquaculture Science (Cefas, UK) and
+                                funded through the UK Government’s Ocean Country Partnership Program (OCPP), WREN is
+                                actively leading the development of a comprehensive Maritime Transport Policy for
+                                Belize. </p>
+                            <a href="current.html" class="main-btn main-btn-3 c-read">Read Now</a>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="col-lg-6">
+                    <div class="row bx-ox">
+
+                        <div class="col-md-4 p-pading">
+                            <img src="assets/images/project/Port Upgrade Feasibility Study_page-0001.jpg" style="object-fit: cover;"class="blg-ht d-none d-lg-block">
+                            <img src="assets/images/project/Port Upgrade Feasibility Study_page-0001.jpg"style="object-fit: cover;" class="d-lg-none">
+                        </div>
+                        <div class="col-md-8">
+                            <h4 class="c-tps">Conducting a Pilot Ports Upgrade Feasibility Study on Port Waste
+                                Management Infrastructure in Belize</h4>
+                            <p>WREN is delivering a focused feasibility study on upgrading port waste management
+                                infrastructure in Belize.</p>
+                            <a href="current.html" class="main-btn main-btn-3 c-read">Read Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="row bx-ox">
+
+                        <div class="col-md-4 p-pading">
+                            <img src="assets/images/project/Project Fresh Start.jpg" style="object-fit: cover;"class="blg-ht d-none d-lg-block">
+                            <img src="assets/images/project/Project Fresh Start.jpg"style="object-fit: cover;" class="d-lg-none">
+                        </div>
+                        <div class="col-md-8">
+                            <h4 class="c-tps">Project Fresh Start – Introducing collection services in remote communities in Belize</h4>
+                            <p>Addressing the issue of illegal garbage dumping, Project Fresh Start aims to establish waste collection and disposal systems in small and remote communities in Belize that did not previously have existing waste management infrastructure.</p>
+                            <a href="current.html" class="main-btn main-btn-3 c-read">Read Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="row bx-ox">
+
+                        <div class="col-md-4 p-pading">
+                            <img src="assets/images/project/white paper project.jpeg" style="object-fit: cover;"class="blg-ht d-none d-lg-block">
+                            <img src="assets/images/project/white paper project.jpeg"style="object-fit: cover;" class="d-lg-none">
+                        </div>
+                        <div class="col-md-8">
+                            <h4 class="c-tps">White Paper - Compendium of Successful Case Studies on Effective Solutions to Plastic Pollution in Islands</h4>
+                            <p>WREN addresses plastic pollution in Small Island Developing States (SIDs) through a white paper consolidating successful case studies.</p>
+                            <a href="current.html" class="main-btn main-btn-3 c-read">Read Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="row bx-ox">
+
+                        <div class="col-md-4 p-pading">
+                            <img src="assets/images/project/Samoa Single use plastics project.jpeg" style="object-fit: cover;"class="blg-ht d-none d-lg-block">
+                            <img src="assets/images/project/Samoa Single use plastics project.jpeg"style="object-fit: cover;" class="d-lg-none">
+                        </div>
+                        <div class="col-md-8">
+                            <h4 class="c-tps">Assessment on Preventing Leakage of Single-Use Plastics in Pacific Island Countries</h4>
+                            <p>In collaboration with an international team of experts, WREN’s director is contributing to an assessment to prevent the leakage of single-use plastics into the marine environment in Pacific Island Countries (PICs).</p>
+                            <a href="current.html" class="main-btn main-btn-3 c-read">Read Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="row bx-ox">
+
+                        <div class="col-md-4 p-pading">
+                            <img src="assets/images/project/World bank blue economy project.jpeg" style="object-fit: cover;"class="blg-ht d-none d-lg-block">
+                            <img src="assets/images/project/World bank blue economy project.jpeg"style="object-fit: cover;" class="d-lg-none">
+                        </div>
+                        <div class="col-md-8">
+                            <h4 class="c-tps">Assessment of the Scope, Scale, and Impacts of Marine Pollution on Key Blue Economy Sectors in Pacific Island Countries</h4>
+                            <p>Working as part of an international collaborative team, WREN’s director is contributing as the solid waste management expert for the "Assessment of the Scope</p>
+                            <a href="current.html" class="main-btn main-btn-3 c-read">Read Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="row bx-ox">
+
+                        <div class="col-md-4 p-pading">
+                            <img src="assets/images/pic.png" style="object-fit: cover;"class="blg-ht d-none d-lg-block">
+                            <img src="assets/images/pic.png"style="object-fit: cover;" class="d-lg-none">
+                        </div>
+                        <div class="col-md-8">
+                            <h4 class="c-tps">The Pacific Ocean Litter Project (POLP)</h4>
+                            <p>Working as part of an international collaborative The Pacific Ocean Litter Project (POLP) (2019-2027) is funded by the Australian Government </p>
+                            <a href="current.html" class="main-btn main-btn-3 c-read">Read Now</a>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="team-5-area pt-90" style="padding-top: 0px;">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="team-title text-center">
+                        <h3 class="title" style="color: #926224; font-size: 40px;">Our Collaborators</h3>
+                        <p>We have worked in over 20 countries to bring about desired changes in partnership with our
+                            collaborators </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row team-5-active">
+                <!-- <div class="col-lg-3">
+                    <div class="team-2-item team-5-item mt-40">
+                        <img src="assets/images/clnt.png" alt="">
+                    </div>
+                </div> -->
+                <div class="col-lg-3">
+                    <div class="team-2-item team-5-item mt-40">
+                        <img src="assets/images/clnt2.png" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="team-2-item team-5-item mt-40">
+                        <img src="assets/images/clnt3.png" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="team-2-item team-5-item mt-40">
+                        <img src="assets/images/clnt4.png" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="team-2-item team-5-item mt-40">
+                        <img src="assets/images/clnt5.png" alt="">
+                    </div>
+                </div>
+
+                <div class="col-lg-3">
+                    <div class="team-2-item team-5-item mt-40">
+                        <img src="assets/images/clnt6.png" alt="">
+                    </div>
+                </div>
+
+                <div class="col-lg-3">
+                    <div class="team-2-item team-5-item mt-40">
+                        <img src="assets/images/clnt7.png" alt="">
+                    </div>
+                </div>
+
+                <div class="col-lg-3">
+                    <div class="team-2-item team-5-item mt-40">
+                        <img src="assets/images/clnt8.png" alt="">
+                    </div>
+                </div>
+
+                <div class="col-lg-3">
+                    <div class="team-2-item team-5-item mt-40">
+                        <img src="assets/images/clnt9.png" alt="">
+                    </div>
+                </div>
+
+                <div class="col-lg-3">
+                    <div class="team-2-item team-5-item mt-40">
+                        <img src="assets/images/clnt10.png" alt="">
+                    </div>
+                </div>
+
+                <div class="col-lg-3">
+                    <div class="team-2-item team-5-item mt-40">
+                        <img src="assets/images/clnt11.png" alt="">
+                    </div>
+                </div>
+
+                <div class="col-lg-3">
+                    <div class="team-2-item team-5-item mt-40">
+                        <img src="assets/images/clnt12.png" alt="">
+                    </div>
+                </div>
+
+                <div class="col-lg-3">
+                    <div class="team-2-item team-5-item mt-40">
+                        <img src="assets/images/clnt13.png" alt="">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <section class="portfolio-2-area back-rnd bg-img">
+        <div class="container">
+            <div class="row ">
+                <div class="col-lg-12">
+                    <div class="section-title-3 text-center">
+                        <h3 class="title c-lor">Join us on the journey to transform the world</h3>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <section class="screenshot-area" style="padding-top: 190px;">
+
+        <div class="container-fluid custom-container">
+            <div class="row screenshot-active">
+                <div class="col-lg-4 c-act">
+                    <div class="screenshot-item">
+
+                        <video class="pa-video vid-eo" preload="none" poster="assets/images/vd-one.mp4" autoplay=""
+                            loop="" muted="" playsinline="">
+                            <source src="assets/images/vd-one.mp4" type="video/mp4">Your browser does not support HTML5
+                            video.
+                        </video>
+
+                    </div>
+                </div>
+
+
+                <div class="col-lg-4 c-act">
+                    <div class="screenshot-item">
+                        <video class="pa-video vid-eo" preload="none" poster="assets/images/vd-two.mp4" autoplay=""
+                            loop="" muted="" playsinline="">
+                            <source src="assets/images/vd-two.mp4" type="video/mp4">Your browser does not support HTML5
+                            video.
+                        </video>
+                    </div>
+                </div>
+                <div class="col-lg-4 c-act">
+                    <div class="screenshot-item">
+                        <video class="pa-video vid-eo" preload="none" poster="assets/images/vd-three.mp4" autoplay=""
+                            loop="" muted="" playsinline="">
+                            <source src="assets/images/vd-three.mp4" type="video/mp4">Your browser does not support
+                            HTML5 video.
+                        </video>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 c-act">
+                    <div class="screenshot-item">
+                        <video class="pa-video vid-eo" preload="none" poster="assets/images/vd-two.mp4" autoplay=""
+                            loop="" muted="" playsinline="">
+                            <source src="assets/images/vd-two.mp4" type="video/mp4">Your browser does not support HTML5
+                            video.
+                        </video>
+                    </div>
+                </div>
+
+
+
+            </div>
+        </div>
+    </section>
+    <!-- 
+
+
+    <section class="portfolio-2-area back-rnd" style="padding-top:0px; padding-bottom:0px;">
+    <div class="gallery-container">
+    <div class="gallery-item" data-index="1">
+        <img src="assets/images/pb.png">
+    </div>
+    <div class="gallery-item" data-index="2">
+        <img src="assets/images/pb1.png">
+    </div>
+    <div class="gallery-item" data-index="3">
+        <img src="assets/images/pb2.png">
+    </div>
+    <div class="gallery-item" data-index="4">
+        <img src="assets/images/pb3.png">
+    </div>
+    <div class="gallery-item" data-index="5">
+        <img src="assets/images/pb4.png">
+    </div>
+    <div class="gallery-item" data-index="6">
+        <img src="assets/images/pb5.png">
+    </div>
+    <div class="gallery-item" data-index="7">
+        <img src="assets/images/pb6.png">
+    </div>
+    <div class="gallery-item" data-index="8">
+        <img src="assets/images/pb7.png">
+    </div>
+</div>
+    </section>
+
+     -->
+    <footer class="footer-area footer-2-area">
+
+        <!--<div class="container">-->
+        <!--    <div class="footer-item">-->
+
+        <!--        <div class="row">-->
+        <!--            <div class="col-lg-4 col-md-6 col-sm-7">-->
+        <!--                <div class="footer-list mt-30">-->
+        <!--                    <img src='https://mararmedia.agency/wren/assets/images/logo.png' />-->
+        <!--                </div>-->
+        <!--                <div class="footer-list mt-30">-->
+        <!--                    <p class="sub-cat">Work with us to address your waste management challenges, connect with like minded individuals and be empowered to innovate. Connect with our team to find the right solutions for you.</p>-->
+        <!--                </div>-->
+        <!--            </div>-->
+
+        <!--  <div class="col-lg-4 col-md-6 col-sm-5">-->
+        <!--    <div class="footer-list mt-30">-->
+        <!--        <h4 class="title">SERVICES</h4>-->
+        <!--        <ul>-->
+        <!--            <li><a href="waste-management.html">Waste Management Consulting and Advisory</a></li>-->
+        <!--            <li><a href="education-training.html">Education, Training, and Outreach</a></li>-->
+        <!--            <li><a href="circular-economy.html">Circular Economy and Resource Recovery Consulting</a></li>-->
+        <!--            <li><a href="policy-and-advocacy.html">Policy and Advocacy</a></li>-->
+        <!--        </ul>-->
+        <!--    </div>-->
+        <!--</div>-->
+
+
+        <!--            <div class="col-lg-3 col-md-6 col-sm-6">-->
+        <!--                <div class="footer-list mt-30">-->
+        <!--                    <h4 class="title">EXPLORE</h4>-->
+        <!--                    <ul>-->
+        <!--                        <li><a href="about.html">About Us</a></li>-->
+        <!--                        <li><a href="project.html">Project</a></li>-->
+        <!--                        <li><a href="blog.html">Blog</a></li>-->
+        <!--                        <li><a href="contact.html">Contact Us</a></li>-->
+        <!--                    </ul>-->
+        <!--                </div>-->
+        <!--            </div>-->
+        <!--            <div class="col-lg-3 col-md-6 col-sm-6">-->
+        <!--                <div class="footer-list mt-30">-->
+        <!--                    <h4 class="title">CONTACT</h4>-->
+        <!--                    <ul>-->
+        <!--                        <li><a href="#">+61 433 511 670</a></li>-->
+        <!--                        <li><a href="#">www.wrenconsult.com.au</a></li>-->
+        <!--                        <li><a href="#">admin@wrenconsult.com.au</a></li>-->
+        <!--                    </ul>-->
+
+        <!--                    <div class="footer-copyright">-->
+        <!--                        <ul class="d-flex p-2">-->
+        <!--                            <li><a href="https://www.facebook.com/profile.php?id=100092623182389" target="_blank"><i class="fab fa-facebook-f"></i></a></li>-->
+        <!--                            <li><a href="http://www.linkedin.com/in/wren-consulting-046993276" target="_blank"><i class="fab fa-linkedin"></i></a></li>-->
+        <!--                            <li><a href="https://www.instagram.com/wren_network/" target="_blank"><i class="fab fa-instagram"></i></a></li>-->
+        <!--                        </ul>-->
+        <!--                    </div>-->
+        <!--                </div>-->
+        <!--            </div>-->
+
+        <!--        </div>-->
+        <!--    </div>-->
+        <!--    <div class="row">-->
+        <!--        <div class="col-lg-12">-->
+        <!--            <div class="footer-copyright"  style="text-align: center;border-top: 1px solid #fff;">-->
+        <!--                <p>© 2023 WREN Developed. By <a href="https://mararmedia.com" target="_blank" style="color: #fff;">Marar Media</a>.All rights reserved </p>-->
+        <!--            </div>-->
+        <!--        </div>-->
+        <!--    </div>-->
+        <!--</div>-->
+        <div class='container  pb-20'>
+            <div class='row pt-20 align-items-center footer-design'>
+                <center class='col-lg-2 align-items-center'>
+                    <img src='https://mararmedia.agency/wren/assets/images/logo.png' />
+                </center>
+                <div class='col-lg-9 text-white text-center'>
+                    Work with us to address your waste management challenges, connect with like minded individuals and
+                    be empowered to innovate. Connect with our team to find the right solutions for you.
+                </div>
+            </div>
+            <br />
+            <div class='text-white justify-content-center d-flex footer-items' style='column-gap: 10px'>
+                <div><b>EXPLORE :</b></div>
+                <div style='display: flex; column-gap: 10px'>
+                    <div><a href="about.html" class="text-white" style="text-decoration: none;"></a>About Us</a></div>
+                    <div>|</div>
+                    <div><a href="current.html" class="text-white" style="text-decoration: none;">Projects</a></div>
+                    <div>|</div>
+                    <div><a href="blog.html" class="text-white" style="text-decoration: none;">Our Team</a></div>
+                    <div>|</div>
+                    <div><a href="contact.html" class="text-white" style="text-decoration: none;">Contact Us</a></div>
+                </div>
+            </div>
+            <div class='text-white justify-content-center d-flex mt-10 footer-items' style='column-gap: 10px'>
+                <div><b>CONTACT :</b></div>
+                <div style='display: flex; column-gap: 10px'>
+                    <div><a href="tel:+61433511670" class="text-white" style="text-decoration: none;">+61 433 511
+                            670</a></div>
+                    <div>|</div>
+                    <div><a href="https://www.wrenconsult.com.au" target="_blank" class="text-white"
+                            style="text-decoration: none;">www.wrenconsult.com.au</a></div>
+                    <div>|</div>
+                    <div><a href="mailto:admin@wrenconsult.com.au" class="text-white"
+                            style="text-decoration: none;">admin@wrenconsult.com.au</a></div>
+                </div>
+            </div>
+
+
+            <div class='row justify-content-center text-white d-flex mt-30' style='column-gap: 40px'>
+                <div>
+                    <a href=' https://www.facebook.com/profile.php?id=61552684562323&sk=about' class='text-white h3'>
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                </div>
+                <div>
+                    <a href='' class='text-white h3'>
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </div>
+                <div>
+                    <a href=' https://www.instagram.com/wren_network/' class='text-white h3'>
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <a class="back-to-top">
+        <i class="fal fa-angle-up"></i>
+    </a>
+
+    <script src="assets/js/vendor/modernizr-3.6.0.min.js"></script>
+    <script src="assets/js/vendor/jquery-1.12.4.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/jquery.appear.min.js"></script>
+    <script src="assets/js/slick.min.js"></script>
+    <script src="assets/js/wow.js"></script>
+    <script src="assets/js/isotope.pkgd.min.js"></script>
+    <script src="assets/js/imagesloaded.pkgd.min.js"></script>
+    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+    <script src="assets/js/main.js"></script>
+
+    <script>
+        const galleryItem = document.getElementsByClassName("gallery-item");
+        const lightBoxContainer = document.createElement("div");
+        const lightBoxContent = document.createElement("div");
+        const lightBoxImg = document.createElement("img");
+        const lightBoxPrev = document.createElement("div");
+        const lightBoxNext = document.createElement("div");
+
+        lightBoxContainer.classList.add("lightbox");
+        lightBoxContent.classList.add("lightbox-content");
+        lightBoxPrev.classList.add("fa", "fa-angle-left", "lightbox-prev");
+        lightBoxNext.classList.add("fa", "fa-angle-right", "lightbox-next");
+
+        lightBoxContainer.appendChild(lightBoxContent);
+        lightBoxContent.appendChild(lightBoxImg);
+        lightBoxContent.appendChild(lightBoxPrev);
+        lightBoxContent.appendChild(lightBoxNext);
+
+        document.body.appendChild(lightBoxContainer);
+
+        let index = 1;
+
+        function showLightBox(n) {
+            if (n > galleryItem.length) {
+                index = 1;
+            } else if (n < 1) {
+                index = galleryItem.length;
+            }
+            let imageLocation = galleryItem[index - 1].children[0].getAttribute("src");
+            lightBoxImg.setAttribute("src", imageLocation);
+        }
+
+        function currentImage() {
+            lightBoxContainer.style.display = "block";
+
+            let imageIndex = parseInt(this.getAttribute("data-index"));
+            showLightBox(index = imageIndex);
+        }
+        for (let i = 0; i < galleryItem.length; i++) {
+            galleryItem[i].addEventListener("click", currentImage);
+        }
+
+        function slideImage(n) {
+            showLightBox(index += n);
+        }
+        function prevImage() {
+            slideImage(-1);
+        }
+        function nextImage() {
+            slideImage(1);
+        }
+        lightBoxPrev.addEventListener("click", prevImage);
+        lightBoxNext.addEventListener("click", nextImage);
+
+        function closeLightBox() {
+            if (this === event.target) {
+                lightBoxContainer.style.display = "none";
+            }
+        }
+        lightBoxContainer.addEventListener("click", closeLightBox);
+    </script>
+
+</body>
+
+</html>
